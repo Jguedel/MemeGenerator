@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="memeGen.css">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <div class='formHolder'>
+        <form action="submit">
+            <label for="memeImg">Img/Gif Url: </label>
+            <input type="url" class="memeImg" placeholder="URL" required
+                value="data:image/jpeg;base64,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">
+            <label for="memeImg">Top Text: </label>
+            <input type="text" class="topText" placeholder="(optional) 18 character max" maxlength=18>
+            <label for="memeImg">Bottom Text: </label>
+            <input type="text" class="bottomText" placeholder="(optional) 18 character max" maxlength=18>
+            <button type="submit">Create Meme!</button>
+        </form>
+    </div>
+    <div class="memeHolder"></div>
+    <!-- meme build
+    <div class=memeHolder>
+        <div class="meme">
+            <p>top</p>
+            <p>bottom</p>
+            <div class = 'del'>Delete</div>
+        </div>
+    </div> 
+-->
+    <script src="memeGen.js"></script>
+</body>
+<footer>
+    Created by: Jacob Guedel
+</footer>
+
+</html>

@@ -1,0 +1,70 @@
+/* MEME CSS */
+.memeHolder{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(183, 0, 255);
+}
+.meme{
+    width: 200px;
+    height: 200px;
+    outline: 3px solid black;
+    overflow: hidden;
+    margin: 10px 5px 10px 5px;
+    background-size: cover;
+    text-overflow: clip;
+}
+.meme p{
+    margin: 0px;
+    font-size: 22px;
+    background-color: rgba(179, 179, 179, 0.36);
+}
+.meme p:last-of-type{
+    position: relative;
+    top: 149px
+}
+.meme div{
+    width: 200px;
+    height: 200px;
+    font-size: 35px;
+    color: red;
+    position: relative;
+    top: 200px;
+    transition: all .5s;
+    background-color: rgba(0, 0, 0, 0.716);
+    vertical-align: middle;
+    line-height: 200px;    
+}
+/*DEL TRANSITION HIEGHT BASED OF IF TEXT IS INCLUDED IN MEME  */
+.meme:hover .allText{
+    top: -51.2px;
+}
+.meme:hover .oneText{
+    top: -25.6px;
+}
+.meme:hover .noText{
+    top: 0px;
+}
+/* INPUT FORM CSS */
+.formHolder{
+width: 100%;
+background-color: rgb(183, 0, 255);
+}
+form{
+    width: 170px;
+    margin: 0px auto;
+    border: 3px solid rgb(32, 255, 69);
+    background-color: rgb(0, 149, 255);
+    padding: 5px;
+}
+form button{
+    margin: 5px 35.175px 0px 35.175px;
+    background-color: rgb(32, 255, 69);
+    border-radius: 5px;
+}
+form button:hover{
+    background-color: rgb(238, 255, 0);
+    cursor: pointer;
+}
